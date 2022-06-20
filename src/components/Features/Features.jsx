@@ -5,19 +5,19 @@ import classes from './features.module.css';
 const FEATURE_DATA = [
 	{
 		name: 'Bookmarks in one click',
-		image: '/public/photos/illustration-features-tab-1.svg',
+		image: '/photos/illustration-features-tab-1.svg',
 		description:
 			'Lorem, ipsum dolor sit amet consectetur adipisicing elit. , recusandae distinctio. Dolorum.',
 	},
 	{
 		name: 'Intelligent Search',
-		image: '/public/photos/illustration-features-tab-2.svg',
+		image: '/photos/illustration-features-tab-2.svg',
 		description:
 			'Lorem, ipsum dolor sit amet  dolores laboriosam totam quasi vel omnis cum ut similique sequi tempora quidem, recusandae distinctio. Dolorum.',
 	},
 	{
 		name: 'Share your bookmarks',
-		image: '/public/photos/illustration-features-tab-3.svg',
+		image: '/photos/illustration-features-tab-3.svg',
 		description:
 			'Lorem, ipsum dolor sit amet  tempora quidem, recusandae distinctio. Dolorum.',
 	},

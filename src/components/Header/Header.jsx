@@ -5,7 +5,7 @@ const Header = () => {
 		<>
 			<nav className={classes.navbar}>
 				<div className={classes.logo}>
-					<img src="/public/photos/logo-bookmark.svg" />
+					<img src="/photos/logo-bookmark.svg" />
 				</div>
 				<div className={classes.navitems}>
 					<a>FEATURES</a>

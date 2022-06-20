@@ -27,7 +27,7 @@ const BodyContent = () => {
 					<div className={classes.image}>
 						<img
 							className={classes.img}
-							src="/public/photos/illustration-hero.svg"
+							src="/photos/illustration-hero.svg"
 							alt="background"
 						/>
 					</div>

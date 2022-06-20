@@ -9,9 +9,9 @@ const FaqList = props => {
 				<h3>{question}</h3>
 				<div className={classes.image} onClick={onClick}>
 					{!visible ? (
-						<img src={'/public/photos/icon-arrow.svg'} />
+						<img src={'/photos/icon-arrow.svg'} />
 					) : (
-						<img src={'/public/photos/icon-close.svg'} />
+						<img src={'/photos/icon-close.svg'} />
 					)}
 				</div>
 			</div>

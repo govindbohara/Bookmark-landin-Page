@@ -14,10 +14,10 @@ const Footer = () => {
 			</div>
 			<div className={classes.company}>
 				<a>
-					<img src="/public/photos/icon-facebook.svg" />
+					<img src="/photos/icon-facebook.svg" />
 				</a>
 				<a>
-					<img src="/public/photos/icon-twitter.svg" />
+					<img src="/photos/icon-twitter.svg" />
 				</a>
 			</div>
 		</footer>
