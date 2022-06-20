@@ -4,6 +4,7 @@ import Body from './components/Body/Body';
 import { Link } from 'react-scroll';
 import { BsArrowUpCircleFill } from 'react-icons/bs';
 import { useState, useEffect } from 'react';
+import { animateScroll as scroll } from 'react-scroll';
 
 function App() {
 	const [scrollPosition, setScrollPosition] = useState(0);
@@ -36,9 +37,14 @@ function App() {
 			<Body />
 			<div className="uparrowcont">
 				{isScrolling && (
-					<Link to="header" className="arrow" smooth={true}>
+					<a
+						className="arrow"
+						onClick={() => {
+							scroll.scrollToTop();
+						}}
+					>
 						<BsArrowUpCircleFill />
-					</Link>
+					</a>
 				)}
 			</div>
 		</>
