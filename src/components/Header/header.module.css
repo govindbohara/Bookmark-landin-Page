@@ -16,13 +16,14 @@
 .logo {
 	margin-left: 10rem;
 }
-.navitems a {
+.navitems .a {
 	font-family: 'PT Serif', serif;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 550;
 	display: inline-block;
 	font-size: 14.5px;
 	color: #32313f;
+	cursor: pointer;
 }
 
 .navitems button {
@@ -37,4 +38,5 @@
 	text-align: center;
 	font-family: 'PT Serif', serif;
 	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
 }

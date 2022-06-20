@@ -4,7 +4,7 @@ import { At } from 'tabler-icons-react';
 
 const Contact = () => {
 	return (
-		<div className={classes.contact}>
+		<div className={classes.contact} id="contact">
 			<div className={classes.detail}>
 				<h3>35000+ ALREADY JOINED</h3>
 				<div className={classes.divpara}>

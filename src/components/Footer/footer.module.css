@@ -8,6 +8,7 @@
 .mainlogo {
 	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%)
 		contrast(102%);
+	cursor: pointer;
 }
 .footer {
 	display: flex;
@@ -21,14 +22,16 @@
 	align-items: center;
 	gap: 2rem;
 }
-.footitems a {
+.footitems .foot {
 	font-family: 'PT Serif', serif;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 550;
 	display: inline-block;
 	font-size: 14.5px;
 	color: #fff;
+	cursor: pointer;
 }
+
 .company {
 	display: flex;
 	align-items: center;

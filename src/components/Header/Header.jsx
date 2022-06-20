@@ -1,16 +1,25 @@
 import classes from './header.module.css';
+import { Link } from 'react-scroll';
 
 const Header = () => {
 	return (
 		<>
-			<nav className={classes.navbar}>
+			<nav className={classes.navbar} id="header">
 				<div className={classes.logo}>
-					<img src="/photos/logo-bookmark.svg" />
+					<Link to="header" smooth={true}>
+						<img src="/photos/logo-bookmark.svg" />
+					</Link>
 				</div>
 				<div className={classes.navitems}>
-					<a>FEATURES</a>
-					<a>PRICING</a>
-					<a>CONTACT</a>
+					<Link className={classes.a} to="features" smooth={true}>
+						FEATURES
+					</Link>
+					<Link className={classes.a} to="extension" smooth={true}>
+						PRICING
+					</Link>
+					<Link className={classes.a} to="contact" smooth={true}>
+						CONTACT
+					</Link>
 					<button>LOGIN</button>
 				</div>
 			</nav>

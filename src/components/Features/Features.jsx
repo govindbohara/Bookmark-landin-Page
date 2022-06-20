@@ -27,7 +27,7 @@ const Features = () => {
 	const [activeIndex, setActiveIndex] = useState(0);
 
 	return (
-		<main className={classes.mainfeature}>
+		<main className={classes.mainfeature} id="features">
 			<div className={classes.leftcolored}></div>
 			<section className={classes.sectionone}>
 				<h1 className={classes.head}>Features</h1>

@@ -1,0 +1,11 @@
+.uparrowcont {
+	display: inline-block;
+	position: fixed;
+	right: 3%;
+	bottom: 3%;
+	cursor: pointer;
+}
+.arrow {
+	font-size: 40px;
+	color: #000;
+}

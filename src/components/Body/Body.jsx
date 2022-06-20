@@ -6,14 +6,14 @@ import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 const Body = () => {
 	return (
-		<>
+		<div id="body">
 			<BodyContent />
 			<Features />
 			<Extension />
 			<Faq />
 			<Contact />
 			<Footer />
-		</>
+		</div>
 	);
 };
 export default Body;

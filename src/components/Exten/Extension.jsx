@@ -2,7 +2,7 @@ import classes from './extension.module.css';
 import ExtensionList from './ExtenxionList';
 const Extension = () => {
 	return (
-		<main className={classes.extensionmain}>
+		<main className={classes.extensionmain} id="extension">
 			<section>
 				<h2>Download Extension</h2>
 				<div className={classes.paradiv}>
