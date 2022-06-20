@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Roboto:wght@300;400&display=swap');
+.main {
+	display: flex;
+	justify-content: center;
+
+	gap: 5rem;
+	padding-top: 6rem;
+	padding-bottom: 6.5rem;
+}
+.content {
+	margin-top: 6rem;
+}
+
+.header h2 {
+	font-size: 50px;
+	color: #222841;
+	font-family: 'PT Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+.para {
+	max-width: 30rem;
+	margin-top: 1rem;
+	font-size: 20px;
+	color: #a2a3a7;
+}
+
+.image {
+	margin-top: 2rem;
+}
+/* .img {
+} */
+.colored {
+	width: 35rem;
+	height: 22rem;
+	background-color: #4d61d2;
+	position: absolute;
+	right: 0;
+	top: 45%;
+	border-radius: 0 0 0 200px;
+	z-index: -1;
+}
+.buttons {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 1rem;
+	margin-top: 3rem;
+}
+.buttons .b1 {
+	padding: 1rem 1.8rem;
+	font-family: 'PT Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	border-radius: 8px;
+	outline: none;
+	border: none;
+	background-color: #5366df;
+	font-size: 15px;
+	font-weight: bold;
+}
+.buttons .b2 {
+	padding: 1rem 1.8rem;
+	font-family: 'PT Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	color: #3b3b3d;
+	font-weight: bold;
+	border-radius: 8px;
+	outline: none;
+	border: none;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+	font-size: 15px;
+}

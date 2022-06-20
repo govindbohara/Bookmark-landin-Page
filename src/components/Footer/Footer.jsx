@@ -1,0 +1,26 @@
+import classes from './footer.module.css';
+const Footer = () => {
+	return (
+		<footer className={classes.footer}>
+			<div className={classes.detail}>
+				<div className={classes.logo}>
+					<img className={classes.mainlogo} src="/public/photos/logo-bookmark.svg" />
+				</div>
+				<div className={classes.footitems}>
+					<a>FEATURES</a>
+					<a>PRICING</a>
+					<a>CONTACT</a>
+				</div>
+			</div>
+			<div className={classes.company}>
+				<a>
+					<img src="/public/photos/icon-facebook.svg" />
+				</a>
+				<a>
+					<img src="/public/photos/icon-twitter.svg" />
+				</a>
+			</div>
+		</footer>
+	);
+};
+export default Footer;

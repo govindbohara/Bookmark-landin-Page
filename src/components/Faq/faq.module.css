@@ -1,0 +1,45 @@
+.faqsection {
+	padding-bottom: 2rem;
+}
+
+.heading {
+	text-align: center;
+	font-size: 35px;
+	color: #222841;
+	font-family: 'PT Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+.paradiv {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 2rem;
+	max-width: 35rem;
+	margin: auto auto;
+}
+.para {
+	font-size: 20px;
+	color: #a2a3a7;
+	margin-top: 1rem;
+	text-align: center;
+}
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3rem;
+}
+.btn button {
+	padding: 1rem 1.8rem;
+	font-family: 'PT Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	background-color: #5366df;
+	font-size: 15px;
+	font-weight: bold;
+}

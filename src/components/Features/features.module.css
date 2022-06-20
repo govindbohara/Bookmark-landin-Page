@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Roboto:wght@400;500&display=swap');
+.mainfeature {
+	padding-bottom: 1rem;
+}
+.sectionone {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.head {
+	font-family: 'PT Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+	margin: 0;
+}
+.para {
+	max-width: 35rem;
+	font-size: 20px;
+	color: #a2a3a7;
+	margin-top: 1rem;
+}
+
+.buttons {
+	display: flex;
+
+	margin: 2.6rem 1rem 2rem 0;
+	border-bottom: 1px solid #a2a3a7;
+}
+.buttons button {
+	padding: 1rem 3rem;
+	font-size: 20px;
+	font-family: 'PT Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	border: none;
+	outline: none;
+	color: #a5a6aa;
+	background-color: #fff;
+}
+.buttons button[data-highlight='true'] {
+	border-bottom: 2px solid #fb5859;
+	color: #000;
+}
+.leftcolored {
+	width: 35rem;
+	height: 22rem;
+	background-color: #4d61d2;
+	position: absolute;
+	left: 0;
+	top: 152%;
+	z-index: -1;
+	border-radius: 0 0 200px 0;
+}

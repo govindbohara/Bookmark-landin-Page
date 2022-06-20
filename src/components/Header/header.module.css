@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Roboto:wght@300;400&display=swap');
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 3rem;
+	margin-bottom: 0.5rem;
+}
+.navitems {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 4rem;
+	margin-right: 7.5rem;
+}
+.logo {
+	margin-left: 10rem;
+}
+.navitems a {
+	font-family: 'PT Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 550;
+	display: inline-block;
+	font-size: 14.5px;
+	color: #32313f;
+}
+
+.navitems button {
+	padding: 0.8rem 2rem;
+	background-color: #fb5859;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-align: center;
+	font-family: 'PT Serif', serif;
+	font-family: 'Roboto', sans-serif;
+}

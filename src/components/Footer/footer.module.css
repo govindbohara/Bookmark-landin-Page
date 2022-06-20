@@ -1,0 +1,38 @@
+.detail {
+	display: flex;
+	gap: 5rem;
+	margin-left: 3rem;
+	align-items: center;
+	justify-content: center;
+}
+.mainlogo {
+	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%)
+		contrast(102%);
+}
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #242946;
+	padding: 1.5rem 0;
+}
+.footitems {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+.footitems a {
+	font-family: 'PT Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 550;
+	display: inline-block;
+	font-size: 14.5px;
+	color: #fff;
+}
+.company {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+	margin-right: 4rem;
+}

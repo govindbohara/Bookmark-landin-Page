@@ -1,0 +1,77 @@
+.article {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	gap: 7rem;
+
+	padding-bottom: 3.5rem;
+}
+.imgdetail {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+.logodetail {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 4rem;
+	margin-top: 1rem;
+}
+.logodetail h3 {
+	font-size: 24px;
+	font-family: 'PT Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 2rem;
+}
+.logodetail p {
+	font-size: 18px;
+	font-family: 'PT Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	color: #a2a3a7;
+	margin-top: 1rem;
+}
+.btn {
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+.btn button {
+	padding: 1rem 2rem;
+	border-radius: 6px;
+	border: none;
+	outline: none;
+	background-color: #5166e2;
+	color: #fff;
+	font-size: 17px;
+	font-family: 'PT Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+.btn button:active {
+	border: 2.5px solid #5166e2;
+	color: #5166e2;
+	background-color: #fff;
+}
+.chrome {
+	border-radius: 8px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+		rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.firefox {
+	border-radius: 8px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+		rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+	margin-top: 5rem;
+}
+.opera {
+	border-radius: 8px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+		rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+	margin-top: 10rem;
+}
