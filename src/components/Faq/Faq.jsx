@@ -8,19 +8,19 @@ const FAQ_QUESTION = [
 		answer: 'Lorem ipsum, dolor sit amet consectetur adipisicing elitLorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, deserunt.dolor sit amet consectetur adipisicing elit.',
 	},
 	{
-		question: 'What is a bookmark?',
+		question: 'What is a landing page?',
 		answer: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, deseLorem ipsum, dolor sit amet consectetur adipisicing elitrunt.dolor sit amet consectetur adipisicing elit.',
 	},
 	{
-		question: 'What is a bookmark?',
+		question: 'How can I request a new browser?',
 		answer: 'Lorem ipsum, dolor sit ame  Lorem ipsum, dolor sit amet consectetur adipisicing elit. consectetur adipisicing elit. Sit, deserunt.dolor sit amet consectetur adipisicing elit.',
 	},
 	{
-		question: 'What is a bookmark?',
+		question: 'Is there a mobile app?',
 		answer: 'Lorem ipsum, dolor sit amLorem ipsum, dolor sit amet consectetur adipisicing elitet consectetur adipisicing elit. Sit, deserunt.dolor sit amet consectetur adipisicing elit.',
 	},
 	{
-		question: 'What is a bookmark?',
+		question: 'What about other Chromium browsers?',
 		answer: 'Lorem ipsum, dolor sit amet consecLorem ipsum, dolor sit amet consectetur adipisicing elittetur adipisicing elit. Sit, deserunt.dolor sit amet consectetur adipisicing elit.',
 	},
 ];
